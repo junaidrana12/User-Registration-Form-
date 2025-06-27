@@ -1,5 +1,6 @@
 # User-Registration-Form
-🌿 Spring Boot Thymeleaf Form Handling Project
+
+## 🌿 Spring Boot Thymeleaf Form Handling Project
 This is a simple web application built using Spring Boot and Thymeleaf to demonstrate how form handling works in a Spring MVC environment.
 
 The application allows users to fill out a registration form, submit their details, and view a success page with the submitted information.
@@ -18,20 +19,20 @@ The example used is a User Registration Form, where the user fills in details li
 
 This project is a great starting point for anyone learning Spring MVC, form validation, and server-side rendering with Thymeleaf.
 
-📌 Key Features
+## 📌 Key Features
 Spring Boot web application setup
 Thymeleaf integration for frontend view rendering
 Form creation and handling using @ModelAttribute
 Simple validation and form binding
 GET and POST request mapping using Spring MVC
-💡 Technologies Used
+## 💡 Technologies Used
 ▪️Java 17+
 ▪️Spring Boot
 ▪️Spring MVC
 ▪️ Thymeleaf
 ▪️Maven
 
-🧑‍💻 Author
+## 🧑‍💻 Author
 Junaid Rana
 📧 [junaidrana1282005@gmail.com}
 🔗 [https://github.com/junaidrana12]
