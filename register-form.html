@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en"
+         xmlns:th="http://www.springframework.org/schema/aop">
+<head>
+    <meta charset="UTF-8">
+    <title>User Registration</title>
+</head>
+<style type ="text/css">
+    label {
+    display:inline-block;
+    width:200px;
+    margin:5px;
+    text-align:left;
+    }
+    input[type=text],input[type=email],input[type=password],select{
+    display :inline-block;
+    width:200px;
+    }
+
+    input[radio]{
+    margin-left :45px;
+    }
+    input[type=checkbox]{
+    margin-right:190px;
+    }
+    button{
+    padding : 5px;
+    margin:10px;
+    }
+</style>
+<body>
+<div align ="center">
+    <div style="border-style:solid; width:500px">
+        <h1> User Registration </h1>
+        <form
+                role = "form"
+                method ="post"
+                th:action = "@{/register/save}"
+                th:object = "${userForm}" >
+
+            <label> Full name: </label>
+            <label>
+                <input type = "text" th:field = "*{name}"/>
+            </label>
+            <br/>
+            <label>E-mail:</label>
+            <label>
+                <input type = "email" th:field = "*{email}"/>
+            </label>
+            <br/>
+            <label>Password</label>
+            <label>
+                <input type ="password" th:field = "*{password}"/>
+            </label>
+            <br/>
+            <label>Gender</label>
+            <label>
+                <input type = "radio" th:field="*{gender}" value="Male"/>
+            </label> Male
+            <label>
+                <input type = "radio" th:field="*{gender}" value="Female"/>
+            </label> Female
+            <br/>
+            <label>Married:</label>
+            <label>
+                <input type="checkbox" th:field="*{married}"/>
+            </label>
+            <label>Profession</label>
+            <label>
+                <select th:field="*{profession}">
+                    <option th:each="p : $(listProfession)" th:value="${p}" th:text="${p}"></option>
+
+                </select>
+            </label>
+            <br/>
+            <label>Address</label>
+            <label>
+                <textarea rows="5" cols="25" th:field="*{address}"></textarea>
+            </label>
+            <br/>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
