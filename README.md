@@ -36,6 +36,8 @@ GET and POST request mapping using Spring MVC
 Junaid Rana
 📧 [junaidrana1282005@gmail.com}
 🔗 [https://github.com/junaidrana12]
-<img width="958" alt="Image" src="https://github.com/user-attachments/assets/ab4c51c0-7774-4221-b08d-1afc62362455" />
 
-<img width="955" alt="Image" src="https://github.com/user-attachments/assets/06d38f72-9cc2-447d-acc8-7063e1690c4f" />
+<img width="959" alt="Register -form" src="https://github.com/user-attachments/assets/ccb0559e-6a6c-452a-b85a-147cfc6278af" />
+<img width="956" alt="Register-user Information" src="https://github.com/user-attachments/assets/10f1d63c-13b2-4145-84dc-a31c8583d379" />
+
+
