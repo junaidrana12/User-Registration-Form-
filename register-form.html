@@ -68,8 +68,7 @@
             <label>Profession</label>
             <label>
                 <select th:field="*{profession}">
-                    <option th:each="p : ${listProfession}" th:value="${p}" th:text="${p}"></option>
-
+                 <option th:each="p : ${listProfession}" th:value="${p}" th:text="${p}"></option>
                 </select>
             </label>
             <br/>
